@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-app
+spec:
+  selector:
+    matchLabels:
+      app: simple
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: simple
+    spec:
+      containers:
+        - name: simple-app
+          image: simple-service:0.1
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
+          env:
+            - name: COMPLEX_SERVICE_URL
+              value: "http://complex-app.default.svc.cluster.local:4000"
