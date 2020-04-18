@@ -1,5 +1,11 @@
 # Workshop/crash course on microservices using docker/kubernetes
 
+## Prerequisites
+
+1. [docker](https://www.docker.com/get-started)
+2. [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+3. [minikube](https://minikube.sigs.k8s.io/docs/)
+
 ## Overview
 
 1. Brief introduction about monolithic / microservice architecture.
