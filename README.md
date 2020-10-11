@@ -53,7 +53,7 @@ Kubernetes is an open-source container-orchestration system for automating appli
 
 _k8s architecture:_
 
-![k8s-image](https://www.mediakwest.com/images/galeries/_2019_Galerie/2019_09_28_MK33_SERVICES_CLOUD/MKW33_OutilsCloud_kubernetes_architecture.jpg)
+![k8s-image](https://upload.wikimedia.org/wikipedia/commons/b/be/Kubernetes.png)
 
 Explain the following _k8s concepts:_
 
