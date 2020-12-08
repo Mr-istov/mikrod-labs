@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: simple-app
-          image: simple-service:0.1
-          imagePullPolicy: Never
+          image: 694473223643.dkr.ecr.us-east-1.amazonaws.com/simple-service
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
           env:

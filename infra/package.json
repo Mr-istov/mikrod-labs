@@ -1,0 +1,24 @@
+{
+  "name": "infra",
+  "version": "0.0.1",
+  "description": "Infrastructure code for EKS on AWS for the microservices",
+  "repository": "https://github.com/Mr-istov/mikrod-labs",
+  "author": "Marjan Ristov <marjan.ristov97@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "cdk": "cdk",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-ecr": "^1.76.0",
+    "@aws-cdk/aws-eks": "^1.76.0",
+    "@aws-cdk/core": "^1.76.0",
+    "aws-cdk": "^1.76.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "ts-node": "^9.1.0",
+    "typescript": "^4.1.2"
+  }
+}
